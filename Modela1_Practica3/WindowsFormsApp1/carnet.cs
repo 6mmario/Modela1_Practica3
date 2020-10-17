@@ -83,6 +83,67 @@ namespace WindowsFormsApp1
             new carnet(){valor = 48, tipo = "TransferNode", numero = "3", x = 130, y = -20},
             new carnet(){valor = 49, tipo = "TransferNode", numero = "3", x = 110, y = 0},
             new carnet(){valor = 50, tipo = "TransferNode", numero = "3", x = 130, y = 0},
+
+
+
+            new carnet(){valor = 51, tipo = "TransferNode", numero = "2", x = -130, y = 10},
+            new carnet(){valor = 52, tipo = "TransferNode", numero = "2", x = -110, y = 10},
+            new carnet(){valor = 53, tipo = "TransferNode", numero = "2", x = -130, y = 30},
+            new carnet(){valor = 54, tipo = "TransferNode", numero = "2", x = -110, y = 30},
+            new carnet(){valor = 55, tipo = "TransferNode", numero = "2", x = -130, y = 50},
+            new carnet(){valor = 56, tipo = "TransferNode", numero = "2", x = -110, y = 50},
+
+            new carnet(){valor = 57, tipo = "TransferNode", numero = "0", x = -100, y = 10},
+            new carnet(){valor = 58, tipo = "TransferNode", numero = "0", x = -80, y = 10},
+            new carnet(){valor = 59, tipo = "TransferNode", numero = "0", x = -100, y = 30},
+            new carnet(){valor = 60, tipo = "TransferNode", numero = "0", x = -80, y = 30},
+            new carnet(){valor = 61, tipo = "TransferNode", numero = "0", x = -100, y = 50},
+            new carnet(){valor = 62, tipo = "TransferNode", numero = "0", x = -80, y = 50},
+
+            new carnet(){valor = 63, tipo = "TransferNode", numero = "0", x = -70, y = 10},
+            new carnet(){valor = 64, tipo = "TransferNode", numero = "0", x = -50, y = 10},
+            new carnet(){valor = 65, tipo = "TransferNode", numero = "0", x = -70, y = 30},
+            new carnet(){valor = 66, tipo = "TransferNode", numero = "0", x = -50, y = 30},
+            new carnet(){valor = 67, tipo = "TransferNode", numero = "0", x = -70, y = 50},
+            new carnet(){valor = 68, tipo = "TransferNode", numero = "0", x = -50, y = 50},
+
+            new carnet(){valor = 69, tipo = "TransferNode", numero = "5", x = -40, y = 10},
+            new carnet(){valor = 70, tipo = "TransferNode", numero = "5", x = -20, y = 10},
+            new carnet(){valor = 71, tipo = "TransferNode", numero = "5", x = -40, y = 30},
+            new carnet(){valor = 72, tipo = "TransferNode", numero = "5", x = -20, y = 30},
+            new carnet(){valor = 73, tipo = "TransferNode", numero = "5", x = -40, y = 50},
+            new carnet(){valor = 74, tipo = "TransferNode", numero = "5", x = -20, y = 50},
+
+            new carnet(){valor = 75, tipo = "TransferNode", numero = "1", x = -10, y = 30},
+            new carnet(){valor = 76, tipo = "TransferNode", numero = "1", x = 10, y = 10},
+            new carnet(){valor = 77, tipo = "TransferNode", numero = "1", x = 10, y = 30},
+            new carnet(){valor = 78, tipo = "TransferNode", numero = "1", x = 10, y = 50},
+
+            new carnet(){valor = 79, tipo = "TransferNode", numero = "7", x = 20, y = 10},
+            new carnet(){valor = 80, tipo = "TransferNode", numero = "7", x = 40, y = 10},
+            new carnet(){valor = 81, tipo = "TransferNode", numero = "7", x = 40, y = 30},
+            new carnet(){valor = 82, tipo = "TransferNode", numero = "7", x = 40, y = 50},
+
+            new carnet(){valor = 83, tipo = "TransferNode", numero = "8", x = 50, y = 10},
+            new carnet(){valor = 84, tipo = "TransferNode", numero = "8", x = 70, y = 10},
+            new carnet(){valor = 85, tipo = "TransferNode", numero = "8", x = 50, y = 30},
+            new carnet(){valor = 86, tipo = "TransferNode", numero = "8", x = 70, y = 30},
+            new carnet(){valor = 87, tipo = "TransferNode", numero = "8", x = 50, y = 50},
+            new carnet(){valor = 88, tipo = "TransferNode", numero = "8", x = 70, y = 50},
+
+            new carnet(){valor = 89, tipo = "TransferNode", numero = "0", x = 80, y = 10},
+            new carnet(){valor = 90, tipo = "TransferNode", numero = "0", x = 100, y = 10},
+            new carnet(){valor = 91, tipo = "TransferNode", numero = "0", x = 80, y = 30},
+            new carnet(){valor = 92, tipo = "TransferNode", numero = "0", x = 100, y = 30},
+            new carnet(){valor = 93, tipo = "TransferNode", numero = "0", x = 80, y = 50},
+            new carnet(){valor = 94, tipo = "TransferNode", numero = "0", x = 100, y = 50},
+
+            new carnet(){valor = 95, tipo = "TransferNode", numero = "3", x = 110, y = 10},
+            new carnet(){valor = 96, tipo = "TransferNode", numero = "3", x = 130, y = 10},
+            new carnet(){valor = 97, tipo = "TransferNode", numero = "3", x = 110, y = 30},
+            new carnet(){valor = 98, tipo = "TransferNode", numero = "3", x = 130, y = 30},
+            new carnet(){valor = 99, tipo = "TransferNode", numero = "3", x = 110, y = 50},
+            new carnet(){valor = 100, tipo = "TransferNode", numero = "3", x = 130, y = 50},
         };
         public llenarCarnet()
         {
@@ -117,6 +178,7 @@ namespace WindowsFormsApp1
         public void dibujarPath()
         {
             int aux = 1;
+            
             foreach(carnet lista in listaCarnet)
             {
                 switch (lista.numero)
@@ -317,6 +379,75 @@ namespace WindowsFormsApp1
                             aux++;
                         }
                         else if (aux == 6)
+                        {
+                            aux = 1;
+                        }
+                        break;
+                    case "5":
+                        if (aux == 1)
+                        {
+                            string nombre = lista.tipo + lista.valor.ToString();
+                            string nombre2 = lista.tipo + (lista.valor + 1).ToString();
+                            crearPath(getNodo(nombre, 1), getNodo(nombre2, 1));
+
+                            string nombre3 = lista.tipo + lista.valor.ToString();
+                            string nombre4 = lista.tipo + (lista.valor + 2).ToString();
+                            crearPath(getNodo(nombre3, 1), getNodo(nombre4, 1));
+                            aux++;
+                        }
+                        else if (aux == 2)
+                        {
+                            aux++;
+                        }
+                        else if (aux == 3)
+                        {
+                            string nombre = lista.tipo + lista.valor.ToString();
+                            string nombre2 = lista.tipo + (lista.valor + 1).ToString();
+                            crearPath(getNodo(nombre, 1), getNodo(nombre2, 1));
+                            aux++;
+                        }
+                        else if (aux == 4)
+                        {
+                            string nombre = lista.tipo + lista.valor.ToString();
+                            string nombre2 = lista.tipo + (lista.valor + 2).ToString();
+                            crearPath(getNodo(nombre, 1), getNodo(nombre2, 1));
+                            aux++;
+                        }
+                        else if (aux == 5)
+                        { 
+                            string nombre = lista.tipo + lista.valor.ToString();
+                            string nombre2 = lista.tipo + (lista.valor + 1).ToString();
+                            crearPath(getNodo(nombre, 1), getNodo(nombre2, 1));
+                            aux++;
+                        }
+                        else if (aux == 6)
+                        {
+                            aux = 1;
+                        }
+                        break;
+                    case "7":
+                        if (aux == 1)
+                        {
+                            string nombre = lista.tipo + lista.valor.ToString();
+                            string nombre2 = lista.tipo + (lista.valor + 1).ToString();
+                            crearPath(getNodo(nombre, 1), getNodo(nombre2, 1));
+                            aux++;
+                        }
+                        else if (aux == 2)
+                        {
+                            string nombre = lista.tipo + lista.valor.ToString();
+                            string nombre2 = lista.tipo + (lista.valor + 1).ToString();
+                            crearPath(getNodo(nombre, 1), getNodo(nombre2, 1));
+                            aux++;
+                        }
+                        else if (aux == 3)
+                        {
+                            string nombre = lista.tipo + lista.valor.ToString();
+                            string nombre2 = lista.tipo + (lista.valor + 1).ToString();
+                            crearPath(getNodo(nombre, 1), getNodo(nombre2, 1));
+                            aux++;
+                        }
+                        else if (aux == 4)
                         {
                             aux = 1;
                         }
