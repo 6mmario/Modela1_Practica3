@@ -83,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="basicnode.cs" />
+    <Compile Include="carnet.cs" />
     <Compile Include="rutasRegiones.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

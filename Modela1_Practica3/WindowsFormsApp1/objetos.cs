@@ -19,6 +19,7 @@ namespace WindowsFormsApp1
         private ISimioProject practica4;
         private string ruta = "ModeloBase.spfx";
         private string rutaFinal = "ModeloFinal.spfx";
+        
         private string[] warnings;
         private IModel model;
         private IIntelligentObjects intelligentObjects;
@@ -31,6 +32,7 @@ namespace WindowsFormsApp1
         llenado llenado = new llenado();
         llenarBasicNode llenadoBN = new llenarBasicNode();
         llenadoRutas llenadoRutas = new llenadoRutas();
+        llenarCarnet llenarCarnet = new llenarCarnet();
 
         public objetos()
         {
@@ -65,8 +67,13 @@ namespace WindowsFormsApp1
 
             rutasRegiones();
             // Crea el modelo final
+            llenarCarnet.crearModeloCarnet();
             SimioProjectFactory.SaveProject(practica4, rutaFinal, out warnings);
+
+           
         }
+
+
 
         public void pintarServer()
         {
