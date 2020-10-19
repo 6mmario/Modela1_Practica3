@@ -67,7 +67,8 @@ namespace WindowsFormsApp1
                 new basicnode() { valor = 53, tipo = "TransferNode", nombre = "Pto53", y =-30, x =70},
                 new basicnode() { valor = 54, tipo = "TransferNode", nombre = "Pto54", y =-30, x =55},
                 new basicnode() { valor = 55, tipo = "TransferNode", nombre = "Pto55", y =-30, x =30}
-        };
+           
+    };
         public llenarBasicNode()
         {
 
