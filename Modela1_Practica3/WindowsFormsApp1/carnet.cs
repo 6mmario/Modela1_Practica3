@@ -16,8 +16,8 @@ namespace WindowsFormsApp1
     class llenarCarnet
     {
         private ISimioProject apiCarnet;
-        private string ruta = "ModeloBase.spfx";
-        private string rutaFinal = "Carnets.spfx";
+        private string ruta = "ModeloBase_P50.spfx";
+        private string rutaFinal = "Carnets_P50.spfx";
         //variables
         private string[] warnings;
         private IModel model;

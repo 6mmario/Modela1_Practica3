@@ -9,3 +9,14 @@ C:\Users\mmari\Documents\0001 - Universidad\MYS1 - 0729\Lab\Modela1_Practica3\Mo
 C:\Users\mmari\Documents\0001 - Universidad\MYS1 - 0729\Lab\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 C:\Users\mmari\Documents\0001 - Universidad\MYS1 - 0729\Lab\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\mmari\Documents\0001 - Universidad\MYS1 - 0729\Lab\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\2S2020\Modela\Lab\Practica 3\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\2S2020\Modela\Lab\Practica 3\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\2S2020\Modela\Lab\Practica 3\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\2S2020\Modela\Lab\Practica 3\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\2S2020\Modela\Lab\Practica 3\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\2S2020\Modela\Lab\Practica 3\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\2S2020\Modela\Lab\Practica 3\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\2S2020\Modela\Lab\Practica 3\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\2S2020\Modela\Lab\Practica 3\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+D:\2S2020\Modela\Lab\Practica 3\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\2S2020\Modela\Lab\Practica 3\Modela1_Practica3\Modela1_Practica3\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
